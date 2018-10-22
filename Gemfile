@@ -32,6 +32,11 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# rakuten API - rails UI
+gem 'rakuten_web_service' , '1.5.0'
+#環境変数取り扱い
+gem 'dotenv-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
